@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ORGANICITY OPPNET</string>
+    <string name="hello_world">N/A</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_enter_app">Enter the application</string>
+    <string name="action_register">Register</string>
+    <string name="action_update">Update</string>
+    <string name="action_registered">Registered</string>
+    <string name="action_deregister">Deregister</string>
+    <string name="action_set_broker">Broker</string>
+    <string name="action_view_log">Logs</string>
+    <string name="broker_protocol">tcp://</string>
+    <string name="update_broker_addr">Confirm</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="imperial_logo">logo</string>
+    <string name="arrow">arrow</string>
+    <string name="instruction">Instruction goes here...</string>
+    <string name="packet_received_legend"># Received</string>
+    <string name="packet_sent_legend"># Sent</string>
+    <string name="credits_earned">credits</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#9C9C98</color>
+
+</resources>

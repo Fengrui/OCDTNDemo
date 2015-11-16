@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/broker_addr_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="6" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:labelFor="@+id/editBrokerAddr"
+            android:padding="3dip"
+            android:text="@string/broker_protocol" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editBrokerAddr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:inputType="text"
+            android:padding="3dip" >
+        </EditText>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/reportButtonBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broker_addr_form" >
+
+        <Button
+            android:id="@+id/broker_update_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_broker_addr" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

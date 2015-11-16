@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.fshi.oppnetdemo1.CreditActivity" >
+
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_update"/>
+    <item
+        android:id="@+id/action_view_log"
+        android:orderInCategory="102"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_view_log"/>
+    <item
+        android:id="@+id/action_set_broker"
+        android:orderInCategory="103"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_set_broker"/>
+
+</menu>
